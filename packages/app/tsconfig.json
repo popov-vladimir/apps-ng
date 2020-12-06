@@ -29,6 +29,12 @@
       "@phala/helloworld-app": [
         "../../packages/helloworld-app/src"
       ],
+      "@phala/auction-app/*": [
+        "../../packages/auction-app/src/*"
+      ],
+      "@phala/auction-app": [
+        "../../packages/auction-app/src"
+      ],
       "@phala/runtime/*": [
         "../../packages/runtime/src/*"
       ],

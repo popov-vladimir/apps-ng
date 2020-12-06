@@ -88,6 +88,7 @@ const NavBar = () => {
       <NavBarButton href="WALLET" name={t('Wallet')} icon={StopCircleIcon} />
       <NavItemSpacer />
       <NavBarButton href="HELLOWORLDAPP" name={t('App')} icon={BoxIcon} />
+      <NavBarButton href="AUCTIONAPP" name={t('AH')} icon={BoxIcon} />
       <NavItemSpacer />
       <NavBarButtonWrapper onClick={() => window.open('/legacy.html', '_blank')}>
         <SidebarIcon size={21} />

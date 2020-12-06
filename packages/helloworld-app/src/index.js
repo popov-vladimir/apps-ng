@@ -123,7 +123,7 @@ const StoreInjector = observer(({ children }) => {
 
   useEffect(() => {
     if (!appStore || !appStore.appRuntime) return
-    if (typeof appStore.hellowrldApp !== 'undefined') return
+    if (typeof appStore.helloworldApp !== 'undefined') return
     appStore.helloworldApp = createHelloWorldAppStore({})
   }, [appStore])
 
